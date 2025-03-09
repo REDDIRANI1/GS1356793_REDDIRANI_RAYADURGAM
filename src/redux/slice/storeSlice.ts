@@ -8,6 +8,7 @@ interface Store {
 }
 
 interface StoreState {
+  length: number;
   stores: Store[];
 }
 
@@ -21,6 +22,7 @@ const initialState: StoreState = {
     { id: 6, name: "New York Empire Eats", city: "New York", state: "NY" },
     { id: 7, name: "Denver Peaks Outdoor", city: "Denver", state: "CO" },
   ],
+  length: 0
 };
 
 const storeSlice = createSlice({

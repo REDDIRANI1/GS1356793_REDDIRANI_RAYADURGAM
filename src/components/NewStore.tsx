@@ -9,7 +9,7 @@ const NewStore: React.FC = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch<AppDispatch>();
 
-  const stores = useSelector((state: RootState) => state.stores);
+  const stores = useSelector((state: RootState) => state.stores.stores); // ✅ Corrected
 
   const [store, setStore] = useState({
     name: "",
@@ -22,7 +22,7 @@ const NewStore: React.FC = () => {
 
     if (name.trim() && city.trim() && state.trim()) {
       const newStore = {
-        id: stores.length > 0 ? stores[stores.length - 1].id + 1 : 1,
+        id: stores.length > 0 ? stores[stores.length - 1].id + 1 : 1, // ✅ Now works
         name,
         city,
         state
@@ -62,17 +62,11 @@ const NewStore: React.FC = () => {
         />
 
         <div className="form-buttons">
-          <button
-            className="add-btn"
-            onClick={handleAddStore}
-          >
+          <button className="add-btn" onClick={handleAddStore}>
             Add Store
           </button>
 
-          <button
-            className="cancel-btn"
-            onClick={() => navigate("/")}
-          >
+          <button className="cancel-btn" onClick={() => navigate("/")}>
             Cancel
           </button>
         </div>
