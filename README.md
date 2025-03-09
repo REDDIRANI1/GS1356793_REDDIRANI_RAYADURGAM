@@ -29,3 +29,7 @@ c.List what you would do to improve your solution if you had 4 more hours
    4.Advanced Filtering and Sorting Features
     *Implement multi-column filtering for better usability.
     *Enable custom sorting for business-specific needs.
+
+    
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4d5ce54f-6a54-409d-9c36-c0f28073f8db/deploy-status)](https://app.netlify.com/sites/gsynergy-app/deploys)
+
