@@ -1,54 +1,31 @@
-# React + TypeScript + Vite
+# GS1356793_REDDIRANI_RAYADURGAM
+a. Instructions about how to run and test your code. 
+    1.cd data-viewer-app
+    2.npm install
+    3.npm run dev
+b. List elements from the challenge that you think you have done well, and 
+that exemplify your proficiency.  Please describe why you chose those 
+elements, and how they demonstrate your proficiency. 
+   1.AG Grid Implementation for Store Table UISuccessfully integrated AG Grid to enhance data visualization and user experience. This showcases my ability to work with complex grid libraries and optimize UI for 
+     better readability.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   2.Data Grouping and StructuringImplemented dynamic grouping for "Week 1" and "Week 2" with Sales Dollars, GM Dollars, and GM Percent. This highlights my proficiency in structuring data efficiently while 
+     maintaining clarity.
 
-Currently, two official plugins are available:
+  3.Seamless Alignment with 'Planning' Page FormatEnsured the store table UI maintains consistency with the 'Planning' page, demonstrating strong attention to detail and adherence to project specifications. 
+c.List what you would do to improve your solution if you had 4 more hours
+   1.Enhanced Styling and UX Improvements
+    *Refine AG Grid styling for better readability and responsiveness.
+    *Improve hover effects and tooltips for better user interaction.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+   2.Performance Optimization
+    *Optimize large dataset rendering with AG Grid's virtualization.  
+    *Reduce re-renders by implementing memoization techniques.
+    
+   3.Comprehensive Unit & Integration Testing
+    *Increase test coverage for edge cases.
+    *Implement snapshot tests for UI consistency.
+    
+   4.Advanced Filtering and Sorting Features
+    *Implement multi-column filtering for better usability.
+    *Enable custom sorting for business-specific needs.
