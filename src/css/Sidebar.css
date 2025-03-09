@@ -1,0 +1,96 @@
+/* Main container to align sidebar & content side by side */
+.main-container {
+  display: flex;
+  height: 100vh;
+  margin-left: 220px; /* Shift content to right of sidebar */
+  justify-content: center; /* Center all content horizontally */
+  align-items: center; /* Center all content vertically */
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds spacing between icon and text */
+  padding: 10px;
+}
+
+.sidebar-item svg {
+  font-size: 18px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 220px;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px; /* Reduce padding */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+/* Table Container */
+.store-table-container {
+  flex-grow: 1;
+  margin-left: 0; /* Align directly with sidebar */
+  padding-top: 0; /* Removes unnecessary top padding */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+  justify-content: flex-start; /* Align table to the top */
+  height: auto; /* Prevents extra space */
+  width: calc(100% - 220px);
+}
+
+/* Table Wrapper */
+.data-table {
+  display: flex;
+  justify-content: flex-start; /* Aligns table to the left */
+  width: 100%;
+}
+
+.store-table {
+  width: 90%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-left: 10px; /* Slight left margin for spacing */
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+  }
+
+  .store-table {
+    width: 95%;
+    font-size: 14px;
+  }
+}
+
+.sidebar {
+  width: 200px; /* Adjust width if needed */
+  min-height: 100vh;
+}
+
+.content {
+  margin-left: 220px; /* Push content to the right */
+  width: calc(100% - 220px);
+}

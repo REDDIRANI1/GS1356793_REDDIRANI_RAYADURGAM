@@ -1,0 +1,63 @@
+.store-form-page {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  text-align: center;
+}
+
+.store-form-page input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-buttons button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+.form-buttons button:last-child {
+  background: #dc3545;
+}
+.new-store-btn {
+  background-color: #f28c7a; /* Light reddish-orange as in the screenshot */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-store-btn:hover {
+  background-color: #e07a69; /* Slightly darker on hover */
+}
+
+/* Align "Feb" header text to the right */
+.right-align-header .ag-header-cell-label {
+  justify-content: flex-end !important; /* Moves "Feb" text to the right */
+  text-align: right !important;
+}
+
+/* Ensure child headers remain centered */
+.ag-header-group-cell:not(.right-align-header) .ag-header-cell-label {
+  justify-content: center !important;
+}
+

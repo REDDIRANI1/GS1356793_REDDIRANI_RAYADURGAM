@@ -1,0 +1,124 @@
+{
+  "stores": [
+    { 
+      "id": 1, 
+      "name": "San Francisco Bay Trends", 
+      "city": "San Francisco", 
+      "state": "CA" 
+    },
+    { 
+      "id": 2, 
+      "name": "Phoenix Sunwear", 
+      "city": "Phoenix", 
+      "state": "AZ" 
+    },
+    { 
+      "id": 3, 
+      "name": "Dallas Ranch Supply", 
+      "city": "Dallas", 
+      "state": "TX" 
+    },
+    { 
+      "id": 4, 
+      "name": "Atlanta Outfitters", 
+      "city": "Atlanta", 
+      "state": "GA" 
+    },
+    { 
+      "id": 5, 
+      "name": "Nashville Melody Music Store", 
+      "city": "Nashville", 
+      "state": "TN" 
+    },
+    { 
+      "id": 6, 
+      "name": "Chicago Sports World", 
+      "city": "Chicago", 
+      "state": "IL" 
+    },
+    { 
+      "id": 7, 
+      "name": "New York Fashion Hub", 
+      "city": "New York", 
+      "state": "NY" 
+    },
+    { 
+      "id": 8, 
+      "name": "Miami Surf & Skate", 
+      "city": "Miami", 
+      "state": "FL" 
+    },
+    { 
+      "id": 9, 
+      "name": "Seattle Outdoor Gear", 
+      "city": "Seattle", 
+      "state": "WA" 
+    },
+    { 
+      "id": 10, 
+      "name": "Denver Snow Supplies", 
+      "city": "Denver", 
+      "state": "CO" 
+    },
+    { 
+      "id": 11, 
+      "name": "Boston Book Haven", 
+      "city": "Boston", 
+      "state": "MA" 
+    },
+    { 
+      "id": 12, 
+      "name": "Houston Tech Warehouse", 
+      "city": "Houston", 
+      "state": "TX" 
+    },
+    { 
+      "id": 13, 
+      "name": "Las Vegas Entertainment", 
+      "city": "Las Vegas", 
+      "state": "NV" 
+    },
+    { 
+      "id": 14, 
+      "name": "San Diego Beachwear", 
+      "city": "San Diego", 
+      "state": "CA" 
+    },
+    { 
+      "id": 15, 
+      "name": "Portland Green Market", 
+      "city": "Portland", 
+      "state": "OR" 
+    },
+    { 
+      "id": 16, 
+      "name": "Minneapolis Winter Sports", 
+      "city": "Minneapolis", 
+      "state": "MN" 
+    },
+    { 
+      "id": 17, 
+      "name": "Detroit Auto Parts", 
+      "city": "Detroit", 
+      "state": "MI" 
+    },
+    { 
+      "id": 18, 
+      "name": "Philadelphia Art Supplies", 
+      "city": "Philadelphia", 
+      "state": "PA" 
+    },
+    { 
+      "id": 19, 
+      "name": "Austin Music Gear", 
+      "city": "Austin", 
+      "state": "TX" 
+    },
+    { 
+      "id": 20, 
+      "name": "Charlotte Home Decor", 
+      "city": "Charlotte", 
+      "state": "NC" 
+    }
+  ]
+}
